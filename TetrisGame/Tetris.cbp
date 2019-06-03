@@ -38,7 +38,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
-			<Add directory="D:/SFML-2.5.1/include" />
+			<Add directory="D:/Letöltések/SFML-2.5.1/include" />
 		</Compiler>
 		<Linker>
 			<Add library="mingw32" />
@@ -46,7 +46,7 @@
 			<Add library="gdi32" />
 			<Add library="winmm" />
 			<Add library="dxguid" />
-			<Add directory="D:/SFML-2.5.1/lib" />
+			<Add directory="D:/Letöltések/SFML-2.5.1/lib" />
 		</Linker>
 		<Unit filename="cb.bmp" />
 		<Unit filename="cell.cpp" />
@@ -56,11 +56,12 @@
 		<Unit filename="game.cpp" />
 		<Unit filename="game.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
 			<debugger />
-			<lib_finder disable_auto="1" />
 		</Extensions>
 	</Project>
 </CodeBlocks_project_file>
